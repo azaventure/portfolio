@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    margin-bottom: 8rem;
+}
+
 /* Style the header and nav */
 header {
     background-color: #f8f9fa;
