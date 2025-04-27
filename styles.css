@@ -1,0 +1,120 @@
+/* Apply Montserrat font to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the header and nav */
+header {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: #007bff;
+    color: white;
+} 
+
+nav #intro-button:hover {
+    background-color: #9a2da0;
+}
+
+nav #resume-button:hover {
+    background-color: #266743;
+}
+
+nav #projects-button:hover {
+    background-color: #ca842a;
+}
+
+nav #contact-button:hover {
+    background-color: #36527d;
+}
+
+nav #accessibility-button:hover {
+    background-color: #353535;
+}
+
+/* Style the main content */
+main {
+    padding: 2rem;
+} 
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 7000;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 15%;
+}
+
+h3 {
+    margin-left: 20%;
+    margin-top: 0;
+    font-size: 1.75rem;
+}
+
+#introduction {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+    max-width: 50%;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-left: 20%;
+    text-align: left;
+    max-width: 55%;
+}
+
+.header-bar {
+    position: relative;
+    top: -4rem;
+}
+
+/* Education section styles */
+#resume > ul {
+    margin-left: 20%;
+    padding-left: 0;
+}
+
+#resume > ul > li {
+    margin-bottom: 1rem;
+}
+
+#resume > ul > li > ul {
+    margin-left: 2rem;
+    list-style-type: disc;
+}
